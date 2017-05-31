@@ -60,7 +60,7 @@ header img {
   }
 }
 .navbar-custom {
-  background: #70706f;
+  background: #1d70b8;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -70,6 +70,7 @@ header img {
   color: white;
   padding-top: 0px;
   padding-bottom: 0px;
+  display: none;
 }
 .navbar-custom .navbar-brand h1 {
   margin-top: 0px;
@@ -164,6 +165,9 @@ section.success {
   section.first {
     padding-top: 75px;
   }
+  section h2 {
+    font-size: 2em;
+  }
 }
 .floating-label-form-group {
   position: relative;
@@ -230,9 +234,8 @@ footer a {
 footer .footer-col {
   margin-bottom: 50px;
 }
-footer .footer-below {
-  padding: 25px 0;
-  background-color: #70706f;
+footer .footer-col.jeugdwerk-info img {
+	width: 150px;
 }
 .btn-outline {
   color: white;
